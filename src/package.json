@@ -1,0 +1,28 @@
+{
+  "name": "ion-dropdown",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adisHuremagic/ionic.git"
+  },
+  "author": {
+    "name": "Adis Huremagić",
+    "email": "adis.huremagic@comsoft.ba"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adisHuremagic/ionic.git/issues"
+  },
+  "main": "ion-dropdown.umd.js",
+  "module": "ion-dropdown.js",
+  "jsnext:main": "ion-dropdown.js",
+  "typings": "ion-dropdown.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
