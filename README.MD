@@ -50,7 +50,16 @@ Once your library is imported, you can use its components, directives and pipes 
 <h1>
   {{title}}
 </h1>
-<sampleComponent></sampleComponent>
+<ion-dropdown placeholder="Select an item..." [items]="items" value="id" display="name" [(selectedItem)]="selectedItem" showCount="10"></ion-dropdown>
+
+
+[items] - object array of items to show in dropdown
+value - object property name to bind to selectedItem, if not defined will bind whole object
+display - object property name to show in input field after selection
+[(selectedItem)] - variable to bind selected item,
+showCount - number of items in dropdown that will be shown, if not set it will show all items
+
+
 ```
 
 ## Development
