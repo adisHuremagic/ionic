@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'ion-dropdown';
+import { DropdownModule } from 'ion-dropdown';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,7 @@ import { SampleModule } from 'ion-dropdown';
     BrowserModule,
 
     // Specify your library as an import
-    LibraryModule
+    DropdownModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -44,12 +44,13 @@ export class AppModule { }
 ```
 
 Once your library is imported, you can use its components, directives and pipes in your Angular application:
-
+```
 [items] - object array of items to show in dropdown
 value - object property name to bind to selectedItem, if not defined will bind whole object
 display - object property name to show in input field after selection
 [(selectedItem)] - variable to bind selected item,
 showCount - number of items in dropdown that will be shown, if not set it will show all items
+```
 
 ```xml
 <!-- You can now use your library component in app.component.html -->
